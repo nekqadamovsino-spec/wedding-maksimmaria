@@ -108,3 +108,33 @@ button{width:78%;display:block;margin:34px auto 0;padding:13px 20px;border-radiu
   transform:translateY(0);
   filter:blur(0);
 }
+.dog-emblem{
+    display:flex;
+    justify-content:center;
+    margin:0 auto 28px;
+}
+
+.dog-frame{
+    width:140px;
+    height:220px;
+    border:2px solid #70161F;
+    border-radius:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.dog-frame::before{
+    content:"";
+    position:absolute;
+    inset:8px;
+    border:2px solid #70161F;
+    border-radius:62px;
+}
+
+.dog-frame img{
+    width:72px;
+    position:relative;
+    z-index:2;
+}
