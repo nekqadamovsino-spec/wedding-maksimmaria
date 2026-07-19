@@ -138,3 +138,192 @@ button{width:78%;display:block;margin:34px auto 0;padding:13px 20px;border-radiu
     position:relative;
     z-index:2;
 }
+.privacy-section{
+
+    max-width:750px;
+    margin:80px auto;
+    padding:45px 28px;
+
+    background:#F8F5EF;
+
+    border-radius:34px;
+
+    box-shadow:0 15px 45px rgba(0,0,0,.06);
+
+}
+
+.privacy-header{
+
+    text-align:center;
+    margin-bottom:40px;
+
+}
+
+.privacy-icon{
+
+    width:120px;
+    height:170px;
+
+    border:2px solid #70161F;
+
+    border-radius:65px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:auto;
+    margin-bottom:28px;
+
+    position:relative;
+
+}
+
+.privacy-icon::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:8px;
+
+    border:2px solid #70161F;
+
+    border-radius:60px;
+
+}
+
+.privacy-icon img{
+
+    width:60px;
+    z-index:2;
+
+}
+
+.privacy-header h2{
+
+    font-size:54px;
+    color:#70161F;
+    margin-bottom:18px;
+
+    letter-spacing:3px;
+
+}
+
+.privacy-header h2 span{
+
+    font-family:"Great Vibes",cursive;
+
+    color:#C29E7A;
+
+    font-size:48px;
+
+    letter-spacing:1px;
+
+}
+
+.privacy-intro{
+
+    font-size:20px;
+    line-height:1.8;
+
+    max-width:620px;
+
+    margin:auto;
+
+}
+
+.privacy-card{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    margin-top:35px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+
+}
+
+.privacy-card h3{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+    color:#70161F;
+
+    font-size:34px;
+
+}
+
+.circle{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:white;
+
+    font-size:24px;
+
+}
+
+.allow-circle{
+
+    background:#6F7458;
+
+}
+
+.deny-circle{
+
+    background:#70161F;
+
+}
+
+.privacy-card ul{
+
+    margin:0;
+
+    padding-left:22px;
+
+}
+
+.privacy-card li{
+
+    margin-bottom:18px;
+
+    line-height:1.8;
+
+    font-size:19px;
+
+}
+
+.privacy-footer{
+
+    margin-top:45px;
+
+    text-align:center;
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    color:#70161F;
+
+}
+
