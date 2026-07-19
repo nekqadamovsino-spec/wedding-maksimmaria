@@ -336,4 +336,164 @@ button{width:78%;display:block;margin:34px auto 0;padding:13px 20px;border-radiu
     color:#70161F;
 
 }
+/* Красивые кнопки карты */
 
+.place-part a.map-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    min-width:190px;
+    margin-top:12px;
+    padding:13px 24px;
+
+    background:#f4f0e8;
+    color:#651a24;
+
+    border:1px solid rgba(101,26,36,.22);
+    border-radius:999px;
+
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+
+    font-size:15px;
+    font-weight:600;
+
+    box-shadow:
+        0 8px 22px rgba(31,4,9,.25),
+        inset 0 1px rgba(255,255,255,.9);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        background .25s ease;
+}
+
+.place-part a.map-button:hover{
+    transform:translateY(-2px);
+
+    background:#fffaf2;
+
+    box-shadow:
+        0 12px 28px rgba(31,4,9,.32),
+        inset 0 1px rgba(255,255,255,.95);
+}
+
+.place-part a.map-button:active{
+    transform:translateY(0) scale(.98);
+}
+
+.map-icon{
+    width:27px;
+    height:27px;
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#651a24;
+    color:#f4f0e8;
+
+    font-size:17px;
+    line-height:1;
+}
+
+
+/* Рисунки локации */
+
+.venue-drawing{
+    width:100%;
+    margin:22px auto 10px;
+
+    overflow:hidden;
+    border-radius:18px;
+
+    background:#f4f0e8;
+
+    box-shadow:
+        0 12px 30px rgba(32,4,10,.25);
+}
+
+.venue-drawing img{
+    display:block;
+    width:100%;
+    height:auto;
+
+    object-fit:contain;
+
+    mix-blend-mode:multiply;
+}
+
+.venue-drawing-wide img{
+    min-height:170px;
+}
+
+
+/* Разделитель между локациями */
+
+.place-divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+
+    margin:34px 0 18px;
+}
+
+.place-divider span{
+    width:74px;
+    height:1px;
+
+    background:rgba(244,240,232,.55);
+}
+
+.place-divider b{
+    color:#c29e7a;
+    font-size:17px;
+    font-weight:400;
+}
+
+
+/* Коррекция овала под фотографии */
+
+.place-oval{
+    min-height:auto;
+    padding:58px 22px 62px;
+}
+
+.place-part{
+    margin:30px auto 26px;
+}
+
+.place-part p{
+    color:#f4f0e8;
+}
+
+.place-name{
+    font-size:23px;
+    letter-spacing:.02em;
+}
+
+
+/* Мобильная адаптация */
+
+@media (max-width:430px){
+
+    .venue-drawing{
+        border-radius:14px;
+    }
+
+    .venue-drawing img{
+        width:100%;
+    }
+
+    .place-part a.map-button{
+        min-width:180px;
+        padding:12px 21px;
+        font-size:14px;
+    }
+}
