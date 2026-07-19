@@ -16,11 +16,7 @@ body{margin:0;background:var(--cream);color:var(--ink);font-family:'Cormorant Ga
 .place{background:var(--cream);padding:34px 14px 44px}.place-oval{
     background:var(--wine);
     color:var(--cream);
-
     border-radius:220px;
-
-    min-height:980px;      /* было 690 */
-
     padding:58px 24px 120px; /* увеличил нижний отступ */
 
     text-align:center;
